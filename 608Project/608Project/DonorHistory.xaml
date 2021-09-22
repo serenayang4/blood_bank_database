@@ -1,0 +1,21 @@
+﻿<Window x:Class="_608Project.DonorHistory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_608Project"
+        mc:Ignorable="d"
+        Title="DonorHistory" Height="450" Width="800">
+	<Grid>
+		<DataGrid x:Name="donorInfo" HorizontalAlignment="Center" Height="89" Margin="0,51,0,0" VerticalAlignment="Top" Width="750"/>
+		<DataGrid x:Name="bagDetails" HorizontalAlignment="Left" Height="213" Margin="475,182,0,0" VerticalAlignment="Top" Width="300"/>
+		<TextBox x:Name="donorid1" HorizontalAlignment="Left" Height="28" Margin="30,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+		<Button Content="Apply Search" HorizontalAlignment="Left" Height="133" Margin="21,262,0,0" VerticalAlignment="Top" Width="436" Click="Button_Click"/>
+		<Label Content="Enter Donor ID number" HorizontalAlignment="Left" Height="38" Margin="130,161,0,0" VerticalAlignment="Top" Width="142"/>
+		<Label Content="Note for Rhesus Factor:&#xD;&#xA; - 1 = Positive&#xD;&#xA; - 0 = Negative" HorizontalAlignment="Left" Height="60" Margin="26,197,0,0" VerticalAlignment="Top" Width="134"/>
+		<Label Content="Details of Bags Donated" HorizontalAlignment="Left" Height="32" Margin="475,154,0,0" VerticalAlignment="Top" Width="288"/>
+		<Label Content="Donor Information" HorizontalAlignment="Left" Height="28" Margin="21,23,0,0" VerticalAlignment="Top" Width="450"/>
+		<Label Content="Note for Bag Content:&#xA; - WBC = White Blood Cells&#xA; - RBC =  Red Blood Cells" HorizontalAlignment="Left" Height="60" Margin="201,197,0,0" VerticalAlignment="Top" Width="256"/>
+
+	</Grid>
+</Window>
